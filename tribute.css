@@ -1,0 +1,43 @@
+body {
+    font-family: 'Times New Roman', serif;
+    background-color: #f4f4f4;
+    color: #333;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.profile-image {
+    border-radius: 50%; /* Makes the image circular */
+    width: 200px; /* Set width for the circular image */
+    height: 200px; /* Set height for the circular image */
+    object-fit: cover; /* Ensures the image covers the area without stretching */
+}
+
+.descriptions span {
+    display: inline-block;
+    margin: 5px;
+    padding: 5px 10px;
+    background-color: #007BFF;
+    color: white;
+    border-radius: 15px;
+}
+
+h2 {
+    color: #007BFF;
+}
+
+blockquote {
+    font-style: italic;
+    margin: 20px 0;
+    border-left: 4px solid #007BFF;
+}
